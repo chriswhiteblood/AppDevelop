@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.cristiantello.appdevelop.MainActivity">
+
+    //match_parent: Se adapta a todo el ancho de la pantalla
+    //A diferencia de los Activity, los fragments no se declaran en el Manifest, porque es una porción del Fragment.
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.example.cristiantello.appdevelop.FragmentA"/>
+
+
+
+</android.support.constraint.ConstraintLayout>
